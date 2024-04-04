@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.light-mode-container {
+  background-color: #ffffff;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.dark-mode-container {
+  background-color: #000000;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.heading-light {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.heading-dark {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #000000;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
